@@ -2,6 +2,13 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
+# Some common sabermod variables before common
+
+O3_OPTIMIZATIONS := true
+TARGET_SM_AND := 4.8
+TARGET_SM_KERNEL := 4.9
+TARGET_ARCH := arm
+
 # Inherit some common Liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
